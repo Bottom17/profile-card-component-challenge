@@ -1,0 +1,39 @@
+/* xs */
+/* @media (min-width: 350px) {} */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.bg-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.bg-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  width: 100%;
+  height: 100%;
+}
+
+/* xs */
+@media (min-width: 350px) {
+  .container {
+    max-width: 350px;
+  }
+}
